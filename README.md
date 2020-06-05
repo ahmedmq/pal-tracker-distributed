@@ -1,3 +1,1 @@
-Changes as per lab:
-
-1. Use PCFOne with SSO Login
+Refer to Internal Trello Board for details
