@@ -1,1 +1,1 @@
-Refer to Internal Trello Board for details
+Refer to Internal Trello Board for details and tips
