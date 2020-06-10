@@ -10,8 +10,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 import java.util.TimeZone;
 
-@EnableWebSecurity
-@EnableResourceServer
+//@EnableWebSecurity
+//@EnableResourceServer
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan({

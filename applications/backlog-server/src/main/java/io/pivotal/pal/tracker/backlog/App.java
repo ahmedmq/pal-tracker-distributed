@@ -14,9 +14,9 @@ import org.springframework.web.client.RestOperations;
 import java.util.TimeZone;
 
 
-@EnableWebSecurity
-@EnableResourceServer
-@EnableOAuth2Client
+//@EnableWebSecurity
+//@EnableResourceServer
+//@EnableOAuth2Client
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan({"io.pivotal.pal.tracker.backlog", "io.pivotal.pal.tracker.restsupport"})
