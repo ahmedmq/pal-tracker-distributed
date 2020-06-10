@@ -18,4 +18,10 @@ public class RestConfig {
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         return mapper;
     }
+
+    @Bean
+    @LoadBalanced
+    public RestOperations restOperations() {
+        return new RestTemplate();
+    }
 }

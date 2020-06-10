@@ -13,8 +13,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.web.client.RestOperations;
 
-@Configuration
-@ConditionalOnProperty(value = "application.oauth-enabled", matchIfMissing = true)
+//@Configuration
+//@ConditionalOnProperty(value = "application.oauth-enabled", matchIfMissing = true)
 public class OauthResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     @Bean
